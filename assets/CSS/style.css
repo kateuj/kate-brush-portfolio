@@ -1,0 +1,71 @@
+body {
+    font-family: 'Josefin Slab', serif;
+}
+
+#navbar-logo {
+    padding-bottom: 20px;
+}
+
+.nav-link {
+    color: #a37ab4;
+    font-weight: 800;
+    font-size: large;
+}
+
+/* Hero image animation */
+
+#hero-animation {
+    height: 70%;
+}
+
+.navbar-toggler {
+    color: #F1B1C1;
+    background-color: #a37ab4;
+
+}
+
+/* #hero-animation {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+} */
+
+.center-portrait {
+    margin-top: 50vh;
+    display: block;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #F1B1C1;
+    border-width: 0.5em;
+    width: 80%;
+}
+
+.hero-container {
+    height: 50vh;
+    background: url('../images/Background-hero-animation.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.intro-columns {
+    padding-top: 50px;
+
+}
+
+.intro-columns-center {
+    padding-top: 200px;
+}
+
+.index-images {
+    display: flex;
+}

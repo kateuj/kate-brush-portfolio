@@ -11,6 +11,11 @@
       crossorigin="anonymous"
     />
     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://kit.fontawesome.com/5588c9f8ee.js"
       crossorigin="anonymous"
     ></script>
@@ -20,18 +25,23 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <h1>Kate Brush</h1>
       <!--Nav bar-->
-      <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <span class="fw-bold text-secondary">Kate Brush</span></a
-          >
+      <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container-xxl">
+          <a class="navbar-brand" href="index.html">
+            <img
+              id="navbar-logo"
+              src="/assets/images/kate_brush_logo_horizontal.png"
+              alt="Kate_Brush_Handwritten_Logo"
+              width="200"
+              class="d-inline-block align-text-top img-fluid"
+            />
+          </a>
 
           <!--Toggle Button for mobile nav-->
           <button
@@ -59,19 +69,76 @@
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About Me</a>
+                <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Support Me</a>
+                <a class="nav-link" href="#">Support</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <!--section hero image-->
+
+    <!--section hero image animation
+    
+    <div class="hero-container"></div>
+
+-->
+
     <!--section intro and portfolio highlights and portrait gif-->
 
+    <div class="container-fluid hero-container max-width">
+      <div class="row">
+        <div class="col-12">
+          <section class="kate-brush-portrait-gif">
+            <img
+              src="/assets/images/placeholder-portrait.png"
+              class="mx-auto d-block center-portrait"
+              alt="waving portrait illustration of Kate Brush"
+            />
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid max-width">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 intro-columns">
+          <section class="introduction">
+            <h1>Hi there</h1>
+            <p>
+              The name's Kate and I am an illustrator. Please have a look round
+              my work and get in touch if you want to collaborate.
+            </p>
+            <img
+              src="/assets/images/Soda_Animation.gif"
+              class="mx-auto d-block index-images"
+              max-width
+              alt="#"
+            />
+          </section>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 intro-columns-center">
+          <section class="introduction">
+            <img
+              src="/assets/images/Break_The_Rules_update_v2.jpg"
+              class="mx-auto d-block pink-elephants max-width"
+              alt="#"
+            />
+          </section>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 intro-columns">
+          <section class="introduction">
+            <img
+              src="/assets/images/crystal_healing.jpg"
+              class="mx-auto d-block index-images"
+              alt="#"
+            />
+          </section>
+        </div>
+      </div>
+    </div>
     <footer>
       <!--social media links-->
     </footer>
