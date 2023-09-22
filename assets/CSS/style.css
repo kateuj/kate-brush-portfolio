@@ -15,7 +15,7 @@ body {
 /* Hero image animation */
 
 #hero-animation {
-    height: 70%;
+    height: 50%;
 }
 
 .navbar-toggler {
@@ -49,24 +49,19 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
-.intro-columns {
-    padding-top: 50px;
-
-}
-
-.intro-columns-center {
-    padding-top: 200px;
+.intro-column {
+    padding-bottom: 200px;
 }
 
 .index-images {
     display: flex;
-    width: 90%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
