@@ -107,6 +107,8 @@ I wanted to create a website to showcase my illustration work as an online portf
 
 Below are so
 
+Consistency of sizing with images, pop outs?
+
 ## Existing Features ##
 
 - __Navigation Bar__
@@ -202,7 +204,7 @@ The live link can be found here - <https://davidcalikes.github.io/portfolio-proj
 
 # Software
 
-
+https://getbootstrap.com/docs/5.0/components/navbar/
 
 # Media
 

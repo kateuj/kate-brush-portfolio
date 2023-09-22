@@ -7,7 +7,7 @@ body {
 }
 
 .nav-link {
-    color: #a37ab4;
+    color: #F1B1C1;
     font-weight: 800;
     font-size: large;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .hero-container {
-    height: 50vh;
+    height: 70vh;
     background: url('../images/Background-hero-animation.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -56,12 +56,14 @@ body {
 }
 
 .intro-column {
-    padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 300px;
 }
 
 .index-images {
     display: flex;
-    width: 200px;
     height: 200px;
     object-fit: cover;
+    max-width: 100%;
+
 }
