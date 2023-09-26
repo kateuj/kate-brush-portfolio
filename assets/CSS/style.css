@@ -10,15 +10,18 @@ body {
     width: 25vh;
 }
 
+
+.navbar{
+    
+}
+.active{
+    color:#fff !important;
+}
+
 .nav-link {
     color: #a37ab4;
     font-weight: 800;
     font-size: large;
-}
-
-.nav-link > .active > a {
-    color: #F1B1C1;
-    background-color: ;
 }
 
 /* Hero image animation */
@@ -54,6 +57,18 @@ body {
 .hero-container {
     height: 30vh;
     background: url('../images/Background-hero-animation.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.portfolio-container {
+    padding-top: 100px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -117,7 +132,6 @@ footer {
     font-weight: bold;
     font-size: 50px;
     color: #a37ab4;
-    padding-top: 150px;
 }
 
 .about{
@@ -133,5 +147,14 @@ footer {
 }
 
 .about-text {
-    max-width: 50%;
+
+    padding-left: 50px;
+    font-size: 2lvh;
+    text-align: center;
 }
+
+@media screen and (max-width: 768px) { /* Bootstrap's mobile view breakpoint */
+    .navbar-light {
+        position: relative !important;
+      }
+    }
