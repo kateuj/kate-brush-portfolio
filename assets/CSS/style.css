@@ -87,3 +87,23 @@ footer {
     padding: 3%;
     color: #fff;
 }
+
+.portfolio-images {
+    width:300px;
+
+
+}
+
+/*#portfolio {
+    clear: both;
+    column-gap: 5em;
+} */
+
+.main-header {
+    clear:both;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #a37ab4;
+    padding-top: 150px;
+}
