@@ -107,3 +107,13 @@ footer {
     color: #a37ab4;
     padding-top: 150px;
 }
+
+.about{
+    max-height: 50vh;
+}
+
+.about-images {
+    display: flex;
+    object-fit: cover;
+    max-width: 50%;
+}
