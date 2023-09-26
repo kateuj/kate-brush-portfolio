@@ -1,15 +1,24 @@
 body {
     font-family: 'Josefin Slab', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #navbar-logo {
     padding-bottom: 20px;
+    width: 25vh;
 }
 
 .nav-link {
     color: #a37ab4;
     font-weight: 800;
     font-size: large;
+}
+
+.nav-link > .active > a {
+    color: #F1B1C1;
+    background-color: ;
 }
 
 /* Hero image animation */
@@ -58,6 +67,7 @@ body {
 .intro-column {
     padding-top: 50px;
     padding-bottom: 80px;
+    clear: both;
 }
 
 .index-images {
@@ -68,8 +78,11 @@ body {
 
 }
 
+/*Footer*/
+
 footer {
     background-color: #a37ab4;
+    margin-top: auto;
 }
 
 .social-networks {
@@ -82,8 +95,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
+    font-size: 150%;
     padding: 3%;
     color: #fff;
 }
@@ -109,11 +121,17 @@ footer {
 }
 
 .about{
-    max-height: 50vh;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    max-height: 80vh;
 }
 
 .about-images {
     display: flex;
     object-fit: cover;
+    max-width: 50%;
+}
+
+.about-text {
     max-width: 50%;
 }
