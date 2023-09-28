@@ -81,6 +81,10 @@ body {
 
 }
 
+.portfolio-header {
+    padding-top: 2em;
+}
+
 hr {
     border: 3px solid #a37ab4;
     text-align: center;
@@ -172,8 +176,22 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) { /* Bootstrap's mobile view breakpoint */
-/*    .navbar-light {
-        position: relative !important;
-      }
-*/
+@media screen and (max-width: 990px) {
+.introduction{
+padding-top: 8em;
+padding-left: 2em;
+padding-right: 2em;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .hero-container{
+        padding-top: 5em;
+    }
+
+    .navbar{
+        height: 60px;
+        padding-top: 0;
+    }
+
+}
