@@ -57,6 +57,12 @@ hr {
 
 }
 
+.nav-link:hover {
+    color: #DAE8B4;
+}
+
+
+
 /* Hero container Index Page */
 
 #hero-animation {
