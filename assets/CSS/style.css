@@ -8,11 +8,20 @@ body {
 #navbar-logo {
     padding-bottom: 20px;
     width: 25vh;
+    position: ;
 }
 
 
 .navbar{
-    
+    background: url('../images/Background-hero-animation.jpg') no-repeat top right;
+    height: 10vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .active{
     color:#fff !important;
@@ -56,7 +65,7 @@ body {
 
 .hero-container {
     height: 30vh;
-    background: url('../images/Background-hero-animation.jpg') no-repeat bottom right fixed;
+    background: url('../images/Background-hero-animation.jpg') no-repeat top right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -65,6 +74,16 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.introduction {
+    text-align: center;
+
+}
+
+hr {
+    border: 3px solid #a37ab4;
+    text-align: center;
 }
 
 .portfolio-container {
@@ -154,7 +173,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) { /* Bootstrap's mobile view breakpoint */
-    .navbar-light {
+/*    .navbar-light {
         position: relative !important;
       }
-    }
+*/
