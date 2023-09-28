@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #171617;
 }
 
 #navbar-logo {
@@ -159,21 +160,42 @@ footer {
 
 .about{
     padding-top: 150px;
-    padding-bottom: 80px;
-    max-height: 80vh;
+    padding-bottom: 10px;
 }
 
 .about-images {
     display: flex;
     object-fit: cover;
-    max-width: 50%;
+    max-height: 40vh;
+
+
+
 }
 
 .about-text {
-
-    padding-left: 50px;
     font-size: 2lvh;
     text-align: center;
+}
+
+/* About and Contact*/
+
+.contact-form{
+    background-color: #a37ab4;
+    color: #fff;
+    padding: 10px;
+    margin: 50px;
+}
+
+.btn-secondary {
+    background-color: #F1B1C1;
+    border: none;
+    margin-top: 10px;
+    color: #a37ab4;
+    font-weight: 700;
+}
+
+.form-control {
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 990px) {
