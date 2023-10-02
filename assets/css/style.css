@@ -210,6 +210,7 @@ footer {
     #sea-page-illustration {
         display: none;
     }
+}
 
     @media screen and (max-width: 767px) {
         .nav-link {
@@ -237,7 +238,6 @@ footer {
         }
 
         .center-portrait {
-
             width: 30vh;
         }
 
