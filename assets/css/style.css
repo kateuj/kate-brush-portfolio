@@ -38,7 +38,7 @@ hr {
 
 
 .navbar {
-    background: url('../images/hero-background.webp') no-repeat top right;
+    background: url('../images/hero-background-1.webp') no-repeat top right;
     height: 10vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -87,7 +87,7 @@ hr {
 
 .hero-container {
     height: 30vh;
-    background: url('../images/hero-background.webp') no-repeat top right fixed;
+    background: url('../images/hero-background-1.webp') no-repeat top right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
