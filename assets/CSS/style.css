@@ -39,7 +39,7 @@ hr {
 }
 
 
-.navbar{
+.navbar {
     background: url('../images/hero-background.webp') no-repeat top right;
     height: 10vh;
     -webkit-background-size: cover;
@@ -50,8 +50,9 @@ hr {
     align-items: center;
     justify-content: center;
 }
-.active{
-    color:#fff !important;
+
+.active {
+    color: #fff !important;
 }
 
 .nav-link {
@@ -172,7 +173,7 @@ hr {
 
 /* About and Contact*/
 
-.about{
+.about {
     padding-top: 120px;
     font-size: 2lvh;
     text-align: center;
@@ -185,7 +186,7 @@ hr {
     margin: auto;
 }
 
-.contact-form{
+.contact-form {
     background-color: #a37ab4;
     color: #fff;
     padding: 30px;
@@ -243,46 +244,45 @@ footer {
 /*Media Queries*/
 
 @media screen and (max-width: 991px) {
-.introduction{
-padding-top: 6em;
-padding-left: 2em;
-padding-right: 2em;
-}
-
-#sea-page-illustration{
-    display: none;
-
-}
-
-@media screen and (max-width: 767px) {
-.nav-link {
-    background-color: #171617c5;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.about {
-    padding: 20px;
-}
-}
-
-@media screen and (max-width: 360px) {
-
     .introduction {
         padding-top: 6em;
         padding-left: 2em;
         padding-right: 2em;
     }
-    .navbar{
-        height: 75px;
-        padding-top: 0;
+
+    #sea-page-illustration {
+        display: none;
+
     }
 
-    .center-portrait {
+    @media screen and (max-width: 767px) {
+        .nav-link {
+            background-color: #171617c5;
+            text-align: right;
+            padding-right: 10px;
+        }
 
-        width: 30vh;
+        .about {
+            padding: 20px;
+        }
     }
 
-    
+    @media screen and (max-width: 360px) {
 
-}
+        .introduction {
+            padding-top: 6em;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+
+        .navbar {
+            height: 75px;
+            padding-top: 0;
+        }
+
+        .center-portrait {
+
+            width: 30vh;
+        }
+        
+    }
