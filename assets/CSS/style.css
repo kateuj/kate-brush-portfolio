@@ -84,9 +84,9 @@ hr {
     display: block;
     border-radius: 50%;
     border-style: solid;
-    border-color: #F1B1C1;
+    border-color: #a37ab4;
     border-width: 0.5em;
-    width: 80%;
+    width: 40vh;
 }
 
 .hero-container {
@@ -237,14 +237,24 @@ padding-right: 2em;
     
 }
 
-@media screen and (max-width: 320px) {
-    .hero-container{
-        padding-top: 5em;
+@media screen and (max-width: 360px) {
+
+    .introduction {
+        padding-top: 6em;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
     .navbar{
         height: 60px;
         padding-top: 0;
     }
+
+    .center-portrait {
+
+        width: 30vh;
+    }
+
+    
 
 }
