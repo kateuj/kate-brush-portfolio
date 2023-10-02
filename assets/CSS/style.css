@@ -24,6 +24,7 @@ hr {
     font-size: 50px;
     color: #a37ab4;
     text-align: center;
+    margin-top: 10vh;
 }
 
 /*Navigation Bar*/
@@ -225,6 +226,10 @@ hr {
     font-weight: bold;
 }
 
+.coffee-gif {
+    margin-top: 10vh;
+}
+
 /*Footer*/
 
 footer {
@@ -249,12 +254,16 @@ footer {
 
 /*Media Queries*/
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 991px) {
 .introduction{
-padding-top: 8em;
+padding-top: 6em;
 padding-left: 2em;
 padding-right: 2em;
 }
+
+#sea-page-illustration{
+    display: none;
+
 }
 
 @media screen and (max-width: 767px) {
