@@ -259,7 +259,10 @@ padding-right: 2em;
     background-color: #171617c5;
     text-align: right;
     padding-right: 10px;
-    intro
+}
+
+.about {
+    padding: 20px;
 }
 }
 
