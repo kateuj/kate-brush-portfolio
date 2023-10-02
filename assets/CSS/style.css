@@ -24,6 +24,9 @@ hr {
     font-size: 50px;
     color: #a37ab4;
     text-align: center;
+}
+
+.header-spacing {
     margin-top: 10vh;
 }
 
@@ -94,19 +97,20 @@ hr {
       transform: translateY(-330px);
     }
   }
+  
   .scroll-bg {
-    height: 30vh;
     width: 100%;
+    height: 100%;
     position: fixed;
     padding-bottom: 330px;
-    background-color: #E8BA9B;
+    background-color: #171617;
     background-image: url('../images/hero-background.webp');
     background-size: cover;
     animation: scrollBg 35s linear forwards;
+    z-index: 1;
   }
 
 */
-
 .center-portrait {
     margin-top: 30vh;
     display: block;
