@@ -85,6 +85,7 @@ hr {
 
 /*animated background*/
 
+/*
 @keyframes scrollBg {
     from {
       transform: translateY(0px);
@@ -93,7 +94,6 @@ hr {
       transform: translateY(-330px);
     }
   }
-  /*
   .scroll-bg {
     height: 30vh;
     width: 100%;
@@ -136,14 +136,17 @@ hr {
 
 }
 
-/*Portfolio Page */
-
-.portfolio-header {
-    padding-top: 2em;
+.intro-column {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    clear: both;
 }
 
+/*Portfolio Page */
+
 .portfolio-container {
-    padding-top: 100px;
+    width: 100%;
+    padding-top: 2em;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -152,42 +155,23 @@ hr {
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-.intro-column {
-    padding-top: 50px;
-    padding-bottom: 80px;
-    clear: both;
+    margin: auto;
 }
 
 .index-images {
     display: flex;
     object-fit: cover;
     max-width: 100%;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
 
 }
-
-.portfolio-images {
-    width:300px;
-
-
-}
-
-/*#portfolio {
-    clear: both;
-    column-gap: 5em;
-} */
 
 /* About and Contact*/
 
 .about{
-    padding-top: 150px;
-    padding-left: 10vh;
-    padding-right: 10vh;
+    padding-top: 120px;
     font-size: 2lvh;
     text-align: center;
-    margin: auto;
 }
 
 .about-images {
@@ -273,6 +257,7 @@ padding-right: 2em;
     padding-right: 10px;
     intro
 }
+}
 
 @media screen and (max-width: 360px) {
 
@@ -281,9 +266,8 @@ padding-right: 2em;
         padding-left: 2em;
         padding-right: 2em;
     }
-
     .navbar{
-        height: 60px;
+        height: 75px;
         padding-top: 0;
     }
 
