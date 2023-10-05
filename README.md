@@ -33,7 +33,7 @@ Predominently, my target audience will be prospective clients checking my style 
 
 I collated some research on 'AdTargeting', where I can get an overview of what demographic search for certain key words. I found that the keyword 'illustration' is predominently searched by a female demographic (61%), within the 35-44 age range. Digging a bit deeper, I found that 'digital illustration' is again searched most by females (56%) within the 25-34 age range.
 
-![Overview of Adtargeting interest for the word 'Illustration'](assets/readme_images/ad-targeting-research-screenshot.png)
+![Overview of Adtargeting interest for the word 'Illustration'](assets/readme-images/ad-targeting-research-screenshot.png)
 
 #### Digital Illustration Keyword Search
 * 56% Female demographic
@@ -74,18 +74,54 @@ This emphasised to me that my site needs to be fully responsive, as younger targ
 
 ![Information Flow of the site](assets/readme_images/information-flow.png)
 
+
+### Research
+
+I conducted some research, looking at other aristic portfolios out there, examining their content, navigation and UI to ensure I could create a competitive online portfolio.
+
+Sites included:
+* [Sara Tepes Portfolio](https://www.sarucatepes.com/)
+* [Anoosha Syed Portfolio](http://www.anooshasyed.com/)
+* [Andrew Thomson Portfolio](https://athomson.art/)
+
+Thoughts noted:
+* Handwritten-style logos
+* Nav bar at the top of the page
+* Responsive design
+* Similar user journey - Home - Gallery - Contact
+* Same gallery grid for their portfolio
+* They have contact forms
+* Logos at the top left of the page
+* White backgrounds to as to make the images the main focus
+* Link to Patreon for users to support the artist
+
+All of the above, I have reflecting in the design of my own website.
+
 ### Wireframes
 
-    Desktop, tablet and mobile wireframes w
+I used Figma and Procreate to plan and design my wireframes and user journey. Figma has been really useful to use as a design board to hold all my inspiration and planning visually in one place. I initially designed the wireframe for my site on mobile first as planned, then proceeded to design desktop wireframes and plan out the user journey and navigation around the site.
+
+#### Mobile Design Wireframe Sketch
+
+![mobile design wireframe](assets/readme-images/wireframe-mobile.png)
+
+#### Desktop Design Wireframe Sketch
+
+![desktop design wireframe](assets/readme-images/wireframe-desktop.png)
+
+[Link to my Figma page](https://www.figma.com/file/mgqUNn2vVWerwPxnTaCVlg/Kate-Brush-Portfolio-Planning-%26-Development-(Community)?type=design&node-id=0%3A1&mode=design&t=aJDzqDB2iJkbcAQF-1)
 
 ### Color Scheme
 
-  ![Colour Scheme](assets/images/colour-palette.png)
+As explained in my target audience research, I wanted to make sure that the colour used in the site was bright and feminine in aesthetic to appeal to a predominantly age 25-34, female audience, which incidentally is the demographic I fall into myself, so I felt it best conveyed my style and personality, which is always important to convey when showcasing any work based on my experience in the industry.
+I went for a mix of warm and cool tones to ensure good colour readability contrast can always be achieved, which is important when considering the design of a site from an accessibility point of view.
+
+  ![Colour Scheme](assets/readme-images/colour-palette.png)
 
 ### Typography
 
-- There ar.
-
+Running with the theme of adding personality to my site, as well as finding a typeface that didn't look too corporate alongside my handwritten logo, I went for a serif font to create a classic, nostalgic look. I will to ensure that font-size is large enough in mobile version to ensure good readability. 
+![Josefin slab typeface](assets/readme-images/josefin-slab-typeface.png)
 # Features #
 
 Below are so
