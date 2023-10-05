@@ -33,7 +33,7 @@ Predominently, my target audience will be prospective clients checking my style 
 
 I collated some research on 'AdTargeting', where I can get an overview of what demographic search for certain key words. I found that the keyword 'illustration' is predominently searched by a female demographic (61%), within the 35-44 age range. Digging a bit deeper, I found that 'digital illustration' is again searched most by females (56%) within the 25-34 age range.
 
-![Overview of Adtargeting interest for the word 'Illustration'](image.png)
+![Overview of Adtargeting interest for the word 'Illustration'](assets/readme_images/ad-targeting-research-screenshot.png)
 
 #### Digital Illustration Keyword Search
 * 56% Female demographic
@@ -43,40 +43,36 @@ This emphasised to me that my site needs to be fully responsive, as younger targ
 
 ### User Needs
 
-#### New Users
-1. View work to check suitability for a project
-2. Know how to contact me
-
-
-#### Returning Users
-
-1. Check for portfolio updates
-
-
+#### User Stories
+1. Viewing my work to check suitability for a commission
+2. Wishing to contact me for a collaboration
+3. Wishing to contact me for a commission
+3. Checking my portfolio for updates
+4. Looking for inspiration for their own illustrative work
     
 ### Site Objectives
 
-  - To
+* To showcase my work in a bright and fun way to stand out from the crowd
+* To build responsive site that works one mobile, tablet and desktop
+* Give the user a positive experience
+* Make the site clear and concise
+* Easy to navigate around and find key information
+* Aesthetically pleasing to demonstrate design skills
+* A good site flow through carefully planned UI
+* Provide the users with a way of contacting me
+* To be accessible for screen readers
 
 ### Approach
 
-  - The information will be provided to the user logically and informed by planning research.  
+* The information will be provided to the user logically and informed by planning research.  
+* The site will be created following the principles of user experience design.
+* The site will provide users links through to my social media accounts for additional content
+* The site will provide users with a contact form, should they wish to contact me 
+* The site will provide users with access to a gallery of my illustration work.
+* The content of the site will be family-friendly and accessible to all.
+* The site will be easy to navigate, intuitive with design consistency.
 
-  - The site will be created following the principles of user experience design.
-
-  - The site will provide users links through which they can book tickets to see the band.
-
-  - The site will provide users with map links to venue locations and the option to add gig dates to Google calender.
-
-  - The site will provide users with access to exclusive media content such as embedded audio files, youtube videos and a photo gallery.
-
-  - The content of the site will be inoffensive and accesible to all.
-
-  - The site will be easy to navigate, intuitive and consistent in design.
-
-  - The site will provide a method through which users can subscribe to a mailing list.
-
-<img src="assets/readme_images/info_flow.png">
+![Information Flow of the site](assets/readme_images/information-flow.png)
 
 ### Wireframes
 
@@ -84,7 +80,7 @@ This emphasised to me that my site needs to be fully responsive, as younger targ
 
 ### Color Scheme
 
-  ![Colour Scheme](assets/images/colour_palette.png)
+  ![Colour Scheme](assets/images/colour-palette.png)
 
 ### Typography
 
