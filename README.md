@@ -5,22 +5,22 @@ To keep in concise, I have chosen a selection of my most recent work and display
 
 insert image here
 
-<a href="https://www.freepik.com/free-psd/technological-items-mock-up_1153552.htm#query=desktop%20tablet%20phone%20mockup&position=2&from_view=keyword&track=ais">Image by CosmoStudio</a> on Freepik
+<a href="https://www.freepik.com/free-psd/technological-items-mock-up_1153552.htm#query=desktop%20tablet%20phone%20mockup&position=2&from_view=keyword&track=ais">
 
 <a href="https://kateuj.github.io/kate-brush-portfolio/index.html">Link to Kate Brush Portfolio live site</a>
 
 ## Table of Contents
 
-1. [Planning & Development](https://github.com/kateuj/kate_brush_portfolio/main/README.md)
-2. [Features](https://github.com/kateuj/kate_brush_portfolio/main/README.md#features)
-3. [Testing](https://github.com/kateuj/kate_brush_portfolio/main/README.md#planning--development)
-4. [Deployment](https://github.com/kateuj/kate_brush_portfolio/main/README.md#planning--development)
-5. [Languages](https://github.com/kateuj/kate_brush_portfolio/main/README.md#planning--development)
-6. [Software](https://github.com/kateuj/kate_brush_portfolio/main/README.md#planning--development)
-7. [Media](https://github.com/kateuj/kate_brush_portfolio/main/README.md#planning--development)
-8. [Credits](https://github.com/kateuj/kate_brush_portfolio/main/README.md#planning--development)
+1. [Planning & Development](#planning--development)
+2. [Features](#features)
+3. [Testing](#testing)
+4. [Deployment](#deployment)
+5. [Languages](#languages)
+6. [Software](#software)
+7. [Media](#media)
+8. [Credits](#credits)
 
-# Planning & Development # 
+# Planning & Development #
 
 ### Business Strategy
 As an illustrator, I have come to a stage where I would like to extend my professional presence online. My Instagram profile has gained some leads for work on occasion, but not at the level I would like it to be in an ideal situation.
@@ -52,6 +52,7 @@ This emphasised to me that my site needs to be fully responsive, as younger targ
     
 ### Site Objectives
 
+* An introduction to me and my professional experience
 * To showcase my work in a bright and fun way to stand out from the crowd
 * To build responsive site that works one mobile, tablet and desktop
 * Give the user a positive experience
@@ -61,6 +62,7 @@ This emphasised to me that my site needs to be fully responsive, as younger targ
 * A good site flow through carefully planned UI
 * Provide the users with a way of contacting me
 * To be accessible for screen readers
+* Links to my social media
 
 ### Approach
 
@@ -72,7 +74,7 @@ This emphasised to me that my site needs to be fully responsive, as younger targ
 * The content of the site will be family-friendly and accessible to all.
 * The site will be easy to navigate, intuitive with design consistency.
 
-![Information Flow of the site](assets/readme_images/information-flow.png)
+![Information Flow of the site](assets/readme-images/information-flow.png)
 
 
 ### Research
@@ -122,35 +124,48 @@ I went for a mix of warm and cool tones to ensure good colour readability contra
 
 Running with the theme of adding personality to my site, as well as finding a typeface that didn't look too corporate alongside my handwritten logo, I went for a serif font to create a classic, nostalgic look. I will to ensure that font-size is large enough in mobile version to ensure good readability. 
 ![Josefin slab typeface](assets/readme-images/josefin-slab-typeface.png)
+
 # Features #
 
-Below are so
+## Existing Features
 
-### Business Objectives
+### General
 
-<li>Examples of my illustration work
-<li>An introduction to me and my professional experience
-<li>A contact form to get in touch
-<li>Links to my social media
-<li>A link to my external Patreon
-<li>Bar to signal when there has been a portfolio update
+* I have made the site responsive, so it can be viewed and used effectively on all screen sizes down to 320px width by 480px height.
+* I have made sure that readability contrast has been taken into consideration with all my design work and use of text within the site.
 
+### Logo
 
-## Existing Features ##
+* I created my logo using Procreate.
+* The process involved handwriting it, then creating a clipping mask with it, to then colour with a gradient to give it a bit more depth.
+* An earlier version did not have the gradient on the letters, which felt a bit flat, so I explored ways to make it more dynamic such as colours changes, before making the decision to add a gradient on it.
+* I added hand-drawn embellishments to it, similar to what I seen done on logo in my research of other sites.
 
-- __Navigation Bar__
+### Navigation Bar
 
-  - The navigation bar 
+### Mobile collapsing Navigation Bar
 
-<img src="#">
+### Hero Portrait Animated GIF
+
+### Contact Form
+
+### Footer
+
+## Possible Future Features
+
+### Announcement Bar
+
+* An annoucement bar that sat above the navigation bar would be desirable to bring to the attention of any user if there have been any updates to the site, for example, new artwork available to view
+
+### A Print Shop
+
+* An online shop where users could buy any of the artwork as a digital or physical print.
+
+### Animated hero background
+
+* I attempted a gently scrolling background animation for the Home page but unfortunately I could not get it to function at a standard I was happy with, so in future, I would like to revisit this, as I feel it would have added something to the visual impact of the Home page.
 
 <br>
-
-- __Possible Future Features__
-
-  - 
-
-    <br>
 
 # Testing
 
@@ -165,16 +180,16 @@ Below are so
 
 <img src="#">
 
-- __Testing the Home page__
+### Testing the Home page
 
 
-- __Testing the Portfolio page__
+### Testing the Portfolio page
   
   
-- - __Testing the About Me page__
+### Testing the About page
 
 
-- __Validator Testing__
+### Validator Testing
 
 I ran all of the sites pages through the W3C validator and each page returned multiple errors.
 
@@ -226,23 +241,41 @@ The live link can be found here - <https://davidcalikes.github.io/portfolio-proj
 
 # Languages
 
-
+* I used HTML and CSS to create this site.
+* Boostrap v5.3.2 was also used and built upon for features such as the responsive navigation bar and page layout.
     <br>
+
+# Media Queries
+
+* Media queries were used to debug and override some display issues that were not rectified with Bootsrap's responsive layouts.
 
 # Software
 
-https://getbootstrap.com/docs/5.0/components/navbar/
+* I used Visual Studio Code to create, edit, preview and push my code to my Github repository.
+* Git and Github for version control.
+* Procreate  was used for my sketches, planning and design work, as well for producing the logo, hero background image and both animated GIFs on the site.
+* Figma was used as a design board to lay out my wireframes and keep a copy of my design thought process all in one place.
 
 # Media
+
+# Code
+https://getbootstrap.com/docs/5.0/components/navbar/
+
 
 -
 
 # Credits
 
-- __Content__
+* 
 
-  -
+### Content
 
-- __Thanks__
+* [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
+* All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'.
 
-  - 
+
+### Thanks
+
+* 
+
+* The big and little human beings of the Ulloa-James household who have been very patient with allowing me the time and the evenings to focus on this project.
