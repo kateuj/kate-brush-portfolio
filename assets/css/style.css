@@ -269,6 +269,10 @@ footer {
             padding-right: 10px;
         }
 
+        .hero-portrait {
+            padding-top: 60px;
+        }
+
         .about{
             padding-top: 10px;
             margin:auto;
@@ -307,13 +311,13 @@ footer {
     @media screen and (max-width: 360px) {
 
         .introduction {
-            padding-top: 6em;
+            padding-top: 90px;
             padding-left: 2em;
             padding-right: 2em;
         }
 
         .center-portrait {
-            width: 30vh;
+            width: 40vh;
         }
 
         .header-spacing {
