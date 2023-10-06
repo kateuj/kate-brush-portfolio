@@ -5,9 +5,8 @@ To keep in concise, I have chosen a selection of my most recent work and display
 
 insert image here
 
-<a href="https://www.freepik.com/free-psd/technological-items-mock-up_1153552.htm#query=desktop%20tablet%20phone%20mockup&position=2&from_view=keyword&track=ais">
 
-<a href="https://kateuj.github.io/kate-brush-portfolio/index.html">Link to Kate Brush Portfolio live site</a>
+[Link to Kate Brush Portfolio live site](https://kateuj.github.io/kate-brush-portfolio/index.html)
 
 ## Table of Contents
 
@@ -24,7 +23,7 @@ insert image here
 
 ### Business Strategy
 As an illustrator, I have come to a stage where I would like to extend my professional presence online. My Instagram profile has gained some leads for work on occasion, but not at the level I would like it to be in an ideal situation.
-<br>
+
 I have wanted to create an Illustration portfolio site with the hope of gaining more clients and collaboration opportunities through people finding my site organically, but also for me to have an easier of demonstrating my abilities within interview settings - a link to a bright, colour, interactive website is far more eye-catching than a PDF portfolio that I have used in the past to show my work to prospective clients in the past.
 
 ### Target Audience
@@ -181,19 +180,19 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 ### Live Instagram Feed
 * In the future I would love to add a live instagram feed on my portfolio page to show the most up to date artwork, as well as giving the users a feel for who I am, to make me more approachable for users.
-<br>
 
 # Testing
 
 ## Testing during Development
 
+* Throughout the process of making this website, I tested my code and CSS alot using the preview window extension within VS Code, as well as within a chrome browser. With chrome browser I could Google Dev-tools to test responsiveness as well as troubleshoot any spacing issues or bugs.
+* I would also consistently commit and push work to Github to then view live site and check responsiveness on my mobile and tablet devices, as well as passing onto friends and family to test on their devices.
+* I have also tested my site in the main browsers available, which include:
 
-  - Testing Technologies
-
-    <br>
-
-    I rigorously tested the site during the development phase using using the following:
-
+  * Google Chrome
+  * Mozilla Firefox
+  * Apple Safari
+  * Microsoft Edge
 
 ### Testing the Home page
 
@@ -204,61 +203,55 @@ Running with the theme of adding personality to my site, as well as finding a ty
 ### Testing the About page
 
 
-### Validator Testing
+## Validator Testing
 
 I ran all of the sites pages through the W3C validator and each page returned multiple errors.
 
-<img src="#">
+
 
 I corrected the code and all four pages now return no html errors.
 
-<img src="#">
+
 
 - The CSS stylesheet was passed through the Jigsaw Validator and returned no errors.
 
-<img src="#">
 
-<br>
 
-- __Performance Testing__
 
-    
 
-<br>
+## Performance Testing
 
-- __Other Bug Fixes__
+## Other Bug Fixes
 
   - On some touchscreen devices an error occurs due to the hover psuedo class which fails to deselect a nav link when a user returns to the previous page via the back arrow.
 
-    <br>
+
 
     This bug was fixed by the inclusion of the "inactive" class selector and by setting the nav link elements to display=hidden on smaller screen sizes.
 
-    <br>
 
-     <img src="assets/readme_images/bug.png">
 
-<br>
-
-- __Unfixed Bugs__
+## Unfixed Bugs
 
 
 
 # Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - From this project's repository, navigate to the settings tab
-  - From the left hand menu, select pages.
-  - From the source section drop-down menu, select the Main Branch.
-  - Once the main branch has been selected, the page will refresh and provide a link to the live project.
+* I used GitHub pages to deploy my site. This required me to go to my project repository and then:
+  * Click on the 'Settings' tab
+  * Select 'Pages' from the menu that appears on the left
+  * Select 'Deploy from a branch'
+  * Select 'Main' in the drop-down menu called 'Select Branch'
+  * Then alongside 'Main', there is a folder dropdown where you select '/Root'
+  * Click 'Save' button
+  * Refresh the page and a link to the live project will appear at the top of the page
 
-The live link can be found here - <https://davidcalikes.github.io/portfolio-project-one/index.html>
+Here is the live link to my website - <https://kateuj.github.io/kate-brush-portfolio/index.html>
 
 # Languages
 
 * I used HTML and CSS to create this site.
 * Boostrap v5.3.2 was also used and built upon for features such as the responsive navigation bar and page layout.
-    <br>
 
 # Media Queries
 
@@ -270,23 +263,17 @@ The live link can be found here - <https://davidcalikes.github.io/portfolio-proj
 * Git and Github for version control.
 * Procreate  was used for my sketches, planning and design work, as well for producing the logo, hero background image and both animated GIFs on the site.
 * Figma was used as a design board to lay out my wireframes and keep a copy of my design thought process all in one place.
+* Adobe Photoshop was used to create visual mockups for this document, as well as reformatting all my images as .webp files to reduce file size and inturn improve the performance of my site.
 
 # Media
-
-# Code
-https://getbootstrap.com/docs/5.0/components/navbar/
-
-
--
+* [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
+* All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'.
 
 # Credits
 
-* 
+## Content
 
-### Content
-
-* [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
-* All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'.
+* https://getbootstrap.com/docs/5.0/components/navbar/
 
 
 ### Thanks
