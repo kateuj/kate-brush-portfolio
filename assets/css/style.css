@@ -30,7 +30,7 @@ hr {
 }
 
 .header-spacing {
-    margin-top: 10vh;
+    margin-top: 6vh;
 }
 
 /*Navigation Bar*/
@@ -237,7 +237,6 @@ footer {
     }
 
     .about{
-        padding-top: 80px;
         margin:auto;
         width:80%;
     }
@@ -258,6 +257,23 @@ footer {
     #sea-page-illustration {
         display: none;
     }
+
+    .about{
+
+        margin:auto;
+        width:90%;
+    
+    }
+
+    .about-images{
+        width: 90%;
+    }
+
+    .contact-form {
+        padding: 30px;
+        margin: 10px;
+
+}
 
 
 }
