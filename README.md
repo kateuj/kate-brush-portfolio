@@ -3,7 +3,7 @@
 This is my Milestone 1 project, which has been designed to showcase my own illustration work as an online portfolio.
 To keep in concise, I have chosen a selection of my most recent work and displayed in a clear manner for prospective clients and collaborators to get a feel for my artistic style and contact me if desired. Due to alot of people using mobile devices more, especially on the go, I have used the 'mobile first' design technique and made sure the site is fully responsive.
 
-insert image here
+![Screen mockups of Kate Brush website](assets/readme-images/mock-up-screen-size.webp)
 
 
 [Link to Kate Brush Portfolio live site](https://kateuj.github.io/kate-brush-portfolio/index.html)
