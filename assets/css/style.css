@@ -9,6 +9,10 @@ body {
     padding: 0;
 }
 
+p {
+    font-size: 1rem;
+}
+
 hr {
     border: 3px solid #DAE8B4;
     max-width: 50%;
@@ -20,7 +24,7 @@ hr {
 
 .main-header {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3rem;
     color: #a37ab4;
     text-align: center;
 }
@@ -56,7 +60,7 @@ hr {
 .nav-link {
     color: #a37ab4;
     font-weight: 800;
-    font-size: large;
+    font-size: 1rem;
     text-align: right;
 }
 
@@ -134,7 +138,6 @@ hr {
 /* About and Contact*/
 .about {
     padding-top: 120px;
-    font-size: 2lvh;
     text-align: center;
 }
 
@@ -160,7 +163,7 @@ hr {
     margin-top: 10px;
     color: #a37ab4;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .btn-secondary:hover {
@@ -205,7 +208,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 150%;
+    font-size: 1.5rem;
     padding: 3%;
     color: #fff;
 }
@@ -214,14 +217,20 @@ footer {
 
 @media screen and (max-width: 991px) {
     .introduction {
-        padding-top: 6em;
+        padding-top: 20vh;
         padding-left: 2em;
         padding-right: 2em;
+    }
+
+    p {
+        font-size: 2rem;
     }
 
     #sea-page-illustration {
         display: none;
     }
+
+
 }
 
     @media screen and (max-width: 767px) {
