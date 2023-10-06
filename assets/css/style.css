@@ -37,7 +37,7 @@ hr {
 #navbar-logo {
     padding-bottom: 20px;
     width: 25vh;
-    position: ;
+
 }
 
 
@@ -243,6 +243,20 @@ footer {
         .about {
             padding: 20px;
         }
+
+        .navbar {
+            height: 75px;
+            padding-top: 0;
+        }
+
+        .header-spacing {
+            margin-top: 90px;
+        }
+
+        #navbar-logo {
+            padding-bottom: 20px;
+            width: 40vh;
+        }
     }
 
     @media screen and (max-width: 360px) {
@@ -253,13 +267,12 @@ footer {
             padding-right: 2em;
         }
 
-        .navbar {
-            height: 75px;
-            padding-top: 0;
-        }
-
         .center-portrait {
             width: 30vh;
+        }
+
+        .header-spacing {
+            margin-top: 80px;
         }
 
     }
