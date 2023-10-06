@@ -259,10 +259,13 @@ footer {
     }
 
     .about{
-
         margin:auto;
         width:90%;
     
+    }
+
+    .header-spacing{
+        margin-top: 40px;
     }
 
     .about-images{
