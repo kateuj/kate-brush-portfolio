@@ -143,33 +143,50 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 ### Navigation Bar
 
-### Mobile collapsing Navigation Bar
+* I made sure to create a fully responsive navbar for this site so it could be used with ease for all screen sizes especially mobile, as this is most likely how the site will be viewed mostly.
+* As screen size reduces the navbar intuitively turns into a collapsible toggler button at the top right corner of the screen
+* The logo for the site consistently stays on the top left corner of the screen and is linked to the Home page to make navigating there easier for the user.
+* I wanted to make sure from a user journey perspective that the navigation was intuitive and that they user could get to anywhere on the site within 2 or less clicks for ease and positive user experience.
+* The colours of the navigation links change as they are hovered over too, to emphasise that they are calls to action. This again aesthetically gives a positive user experience.
 
 ### Hero Portrait Animated GIF
+* I created an animated gif for the center of the landing page to add to the initial visual impact of the site to draw users in. I have kept it in a hand-drawn style to keep it fun and intriguing for a younger audience and to get my own personality across to the user to make it feel more casual and relatable.
 
 ### Contact Form
+* To ensure that users can contact me for potential future projects etc. I have included a contact form on my About page. It is fully responsive, changing size to suit screen size.
+* It is also in keeping with the colour scheme of the site using CSS to maintain consistency and professionalism across the site.
+* Once the user has submitted their form, they are re-directed to a thank-you page to assure them their form has been submitted. They are then re-directed back to the site after 5 seconds for a positive user experience by anticipating their needs. 
 
 ### Footer
+* I have included links to my social media profiles - Tiktok, Instagram, Patreon within my footer
+* They are the standard recognisable icons for each, so easily recognisable by the user.
+* The links all open in seperate windows so that the user does not lose the site in their browser and have to manually navigate back, which again is all part of creating a positive, easy user experiene for them.
+* I have also added a contact icon for those who know they want to contact me as soon as they land on my website. Link directs them to my About page with contact form available.
 
 ## Possible Future Features
 
-### Announcement Bar
+### Interactive Portfolio Gallery
+* I would to add javascript to the portfolio page to allow users to click on the images and get an embedded pop up of the image full screen, with a title and blurb included with each. This would give a bit more context to the pieces and allow users to view them in more depth if required.
 
+### Announcement Bar
 * An annoucement bar that sat above the navigation bar would be desirable to bring to the attention of any user if there have been any updates to the site, for example, new artwork available to view
 
 ### A Print Shop
 
 * An online shop where users could buy any of the artwork as a digital or physical print.
 
-### Animated hero background
+### Animated Hero Background
 
 * I attempted a gently scrolling background animation for the Home page but unfortunately I could not get it to function at a standard I was happy with, so in future, I would like to revisit this, as I feel it would have added something to the visual impact of the Home page.
 
+### Live Instagram Feed
+* In the future I would love to add a live instagram feed on my portfolio page to show the most up to date artwork, as well as giving the users a feel for who I am, to make me more approachable for users.
 <br>
 
 # Testing
 
-- __Testing During Development__
+## Testing during Development
+
 
   - Testing Technologies
 
@@ -177,8 +194,6 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
     I rigorously tested the site during the development phase using using the following:
 
-
-<img src="#">
 
 ### Testing the Home page
 
@@ -278,4 +293,4 @@ https://getbootstrap.com/docs/5.0/components/navbar/
 
 * 
 
-* The big and little human beings of the Ulloa-James household who have been very patient with allowing me the time and the evenings to focus on this project.
+* The big and little human beings of the Ulloa-James household who have been very patient with me, allowing me the time day or night to focus on this project.
