@@ -36,7 +36,7 @@ hr {
 /*Navigation Bar*/
 #navbar-logo {
     padding-bottom: 20px;
-    width: 25vh;
+    height: 10vh;
 
 }
 
@@ -255,7 +255,7 @@ footer {
 
         #navbar-logo {
             padding-bottom: 20px;
-            width: 40vh;
+            height: 70px;
         }
     }
 
