@@ -138,13 +138,30 @@ hr {
 /* About and Contact*/
 .about {
     padding-top: 120px;
+    margin: auto;
     text-align: center;
 }
 
 .about-images {
     display: flex;
     object-fit: cover;
-    max-height: 50vh;
+    width: 50vh;
+    
+}
+
+.about-first-row{
+    margin: auto;
+    padding-top: 120px;
+    display: flex;
+
+
+}
+
+.coffee-gif-div{
+    margin: auto;
+}
+
+.contact-form-div{
     margin: auto;
 }
 
@@ -152,9 +169,10 @@ hr {
     background-color: #a37ab4;
     color: #fff;
     padding: 30px;
-    margin: 50px;
     border-radius: 10px;
+    margin: 50px;
 }
+
 
 .btn-secondary {
     background-color: #F1B1C1;
@@ -175,10 +193,6 @@ hr {
     margin-top: 10px;
     color: #a37ab4;
     font-weight: bold;
-}
-
-.coffee-gif {
-    margin-top: 10vh;
 }
 
 /*Thank you page*/
@@ -215,6 +229,21 @@ footer {
 
 /*Media Queries*/
 
+@media screen and (max-width: 1050px) {
+
+    .about-images {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about{
+        padding-top: 80px;
+        margin:auto;
+        width:80%;
+    }
+    
+}
+
 @media screen and (max-width: 991px) {
     .introduction {
         padding-top: 20vh;
@@ -223,7 +252,7 @@ footer {
     }
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     #sea-page-illustration {
@@ -240,8 +269,18 @@ footer {
             padding-right: 10px;
         }
 
-        .about {
-            padding: 20px;
+        .about{
+            padding-top: 10px;
+            margin:auto;
+            width:80%;
+        }
+
+        .about-first-row{
+            padding-top: 0;
+        }
+
+        .about-images{
+            padding-top: 20px;
         }
 
         .navbar {
@@ -257,6 +296,12 @@ footer {
             padding-bottom: 20px;
             height: 70px;
         }
+
+        .contact-form {
+            padding: 30px;
+            margin: 20px;
+
+}
     }
 
     @media screen and (max-width: 360px) {
@@ -273,6 +318,29 @@ footer {
 
         .header-spacing {
             margin-top: 80px;
+        }
+
+        .about{
+            padding: 10px;
+            width: 100%;
+        }
+
+        .about-images{
+            padding: 10px;
+            width: 100%;
+        }
+
+        .contact-form-div{
+            padding: 10px;
+        }
+
+        .contact-form{
+            width: 100%;
+            margin: 0;
+        }
+        
+        p {
+            font-size: 1.2rem;
         }
 
     }
