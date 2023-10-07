@@ -195,13 +195,36 @@ Running with the theme of adding personality to my site, as well as finding a ty
   * Microsoft Edge
 
 ### Testing the Home page
+* **Navigation Bar**
+  * First thing I tested was the nav bar to check all links worked correctly. I also checked the external link for 'Support' opened a new window, so as not to navigate the user away from my site completely.
+  * This nav bar is based on a responsive Bootstrap snippet available, which I edited to suit colour scheme and typeface, as well as background image.
+  * Getting the nav bar to be a suitable thickness for different screen sizes took some tweaking in CSS with media queries, cross-checking my edits in the VS code live preview to get it to look effective.
 
+* **Body content**
+  * I have used the Bootstrap grid system in my site to structure my pages, as I found it to be reliable to use in the Code Institute exercises for responsiveness. So I tested this section with Google Dev-tools, editing with CSS and media queries to make sure responsiveness was suitable on all screen sizes.
+  * The portrait GIF in the center was initially appearing under the nav bar on smaller screens when tested, so I resolved this by creating media queries for the smaller screen sizes to change the top margin above it where appropriate.
+  * I felt the 3 images were impactful on the larger screens but from tablet screen-size downward, the two image on one line was enough, so I change my strategy in the end to make the third image disappear on smaller screens using a media query.
+
+* **Footer**
+  * An initial bug that I worked on, was a white space below the footer, which I checked over in Google Dev-tools initially but was still unsure as to the resolution. After doing some research, I found help at the following site for a simple piece of CSS code: [30 Seconds of Code](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/#:~:text=This%20is%20done%20by%20setting,it%20and%20its%20previous%20sibling)
+  * I then tested all the links to make sure they worked and that the external links to social media accounts, opened new windows for the links when clicked on. This all worked effectively.
 
 ### Testing the Portfolio page
+
+* **Header**
+  * Testing showed that the headers throughout the site all constitently followed the styling CSS rule I had created for them.
   
+* **Image Grid**
+  * When testing responsiveness of this section, I found that the right margin was not equal to the left,causing the image grid to not sit centrally on the page. After some trial and error, I put the image grid into a seperate div container from the header, which resolved the issue.
+
   
 ### Testing the About page
 
+* **Text section**
+  * Through alot of trial and error, I testing this page the most rigorously for responsiveness, as I found it to be the most complex content and layout-wise. I tested the paragraph text on smaller screens and found it to be too small to comfortably read, so I increased the font size with media queries for the smaller screens.
+  * I also found my line break elemeent was not displaying central to the text when orginally tested and I could not centeralise it with CSS initally. However after researching it, I managed to solve this bug by 
+* **Image and GIF**
+* **Contact Form**
 
 ## Validator Testing
 
@@ -268,6 +291,9 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 # Media
 * [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
 * All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'.
+
+# Code
+
 
 # Credits
 
