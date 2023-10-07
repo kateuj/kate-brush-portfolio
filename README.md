@@ -232,6 +232,10 @@ Running with the theme of adding personality to my site, as well as finding a ty
   * I based this form on the code we learnt in the 'Love Running' exercise I completed. Upon testing my styling, I found the margins to be too wide on smaller screens, which I sorted with a media query to reduce them in size.
   * I tested the submit button to find that it does take the user to a thank-you and successfully re-direct back to site after 5 seconds.
 
+### Testing the Thank you page
+  * Successfully re-directs back to site after 5 seconds when tested.
+  * Tested responsiveness of text and GIF, all of which work effectively.
+
 ## Validator Testing
 
 I ran my site pages through the W3C validator and I received a few errors.
@@ -258,14 +262,6 @@ I corrected the code and all three pages now return no html errors.
 
 
 ## Performance Testing
-
-## Other Bug Fixes
-
-  - On some touchscreen devices an error occurs due to the hover psuedo class which fails to deselect a nav link when a user returns to the previous page via the back arrow.
-
-
-
-    This bug was fixed by the inclusion of the "inactive" class selector and by setting the nav link elements to display=hidden on smaller screen sizes.
 
 
 
@@ -303,18 +299,15 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 * Figma was used as a design board to lay out my wireframes and keep a copy of my design thought process all in one place.
 * Adobe Photoshop was used to create visual mockups for this document, as well as reformatting all my images as .webp files to reduce file size and inturn improve the performance of my site.
 
-# Media
-* [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
-* All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'.
-
 # Code
-
+* https://getbootstrap.com/docs/5.0/components/navbar/
 
 # Credits
 
 ## Content
 
-* https://getbootstrap.com/docs/5.0/components/navbar/
+* * [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
+* All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'.
 
 
 ### Thanks
