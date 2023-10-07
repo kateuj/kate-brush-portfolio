@@ -29,7 +29,7 @@ hr {
 }
 
 .header-spacing {
-    margin-top: 6vh;
+    margin-top: 10vh;
 }
 
 /*Navigation Bar*/
@@ -261,10 +261,6 @@ footer {
         margin:auto;
         width:90%;
     
-    }
-
-    .header-spacing{
-        margin-top: 40px;
     }
 
     .about-images{
