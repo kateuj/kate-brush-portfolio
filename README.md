@@ -222,9 +222,14 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 * **Text section**
   * Through alot of trial and error, I testing this page the most rigorously for responsiveness, as I found it to be the most complex content and layout-wise. I tested the paragraph text on smaller screens and found it to be too small to comfortably read, so I increased the font size with media queries for the smaller screens.
-  * I also found my line break elemeent was not displaying central to the text when orginally tested and I could not centeralise it with CSS initally. However after researching it, I managed to solve this bug by 
+  * I also found my line break elemeent was not displaying central to the text when orginally tested and I could not centeralise it with CSS initally. However after researching it, I managed to solve this bug after learning about margin inline CSS rules at this site [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline).
+  * I also had an issue where the line break was appearing at a low opacity, which must have been a carried over style from the Bootstrap code in my site. To resolve this bug I declared 100% opacity on the hr elements.
+
 * **Image and GIF**
+  * When tested on different screen sizes I had alot of issues with the image and the GIF on this page not being responsive and causing there to be a large white margin on the right-hand side of the site and a horizontal scroll. I found the fix to this bug in the end to be setting the width of each to '50vh' on the desktop and tablet screens to keep it responsive and make sure it never caused an overhang.
+
 * **Contact Form**
+  * I based this form on the code we learnt in the 'Love Running' exercise I completed. Upon testing my styling, I found the margins to be too wide on smaller screens, which I sorted with a media query to reduce them in size.
 
 ## Validator Testing
 
