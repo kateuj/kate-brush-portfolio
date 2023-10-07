@@ -233,13 +233,18 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 ## Validator Testing
 
-I ran all of the sites pages through the W3C validator and each page returned multiple errors.
+I ran my site pages through the W3C validator and I received a few errors.
 
-'Trailing slash on void elements'
+'Trailing slash on void elements' on all pages
+Needed to move "</p>" above "hr" element to resolve
+stray end div
+
+remove section elements in portfolio page
+unclosed divs in portfolio page
 
 
 
-I corrected the code and all four pages now return no html errors.
+I corrected the code and all three pages now return no html errors.
 
 
 
