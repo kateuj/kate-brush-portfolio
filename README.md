@@ -230,6 +230,7 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 * **Contact Form**
   * I based this form on the code we learnt in the 'Love Running' exercise I completed. Upon testing my styling, I found the margins to be too wide on smaller screens, which I sorted with a media query to reduce them in size.
+  * I tested the submit button to find that it does take the user to a thank-you and successfully re-direct back to site after 5 seconds.
 
 ## Validator Testing
 
@@ -239,10 +240,12 @@ I ran my site pages through the W3C validator and I received a few errors.
 Needed to move "</p>" above "hr" element to resolve
 stray end div
 
+javascript was placed after body so needed to move to inside body
+
 remove section elements in portfolio page
 unclosed divs in portfolio page
 
-
+stray end divs
 
 I corrected the code and all three pages now return no html errors.
 
