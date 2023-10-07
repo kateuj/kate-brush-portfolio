@@ -186,14 +186,14 @@ h5 {
     border: none;
     padding: 15px 30px 15px 30px;
     margin-top: 10px;
-    color: #a37ab4;
+    color: #171617;
     font-weight: bold;
     font-size: 1.5rem;
 }
 
 .btn-secondary:hover {
     background-color: #DAE8B4;
-    color: #F1B1C1;
+    color: #a37ab4;
 }
 
 .form-control {
