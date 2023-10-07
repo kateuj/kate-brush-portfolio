@@ -235,6 +235,8 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 I ran all of the sites pages through the W3C validator and each page returned multiple errors.
 
+'Trailing slash on void elements'
+
 
 
 I corrected the code and all four pages now return no html errors.
