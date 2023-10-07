@@ -10,14 +10,13 @@ body {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 hr {
     border: 3px solid #DAE8B4;
     max-width: 50%;
     opacity: 100%;
-    position: inherit;
     margin-inline-start: auto;
     margin-inline-end: auto;
 }
@@ -60,7 +59,7 @@ hr {
 .nav-link {
     color: #a37ab4;
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: right;
 }
 
@@ -181,7 +180,7 @@ hr {
     margin-top: 10px;
     color: #a37ab4;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .btn-secondary:hover {
@@ -222,7 +221,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 3%;
     color: #fff;
 }
@@ -251,7 +250,7 @@ footer {
     }
 
     p {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
 
     #sea-page-illustration {
@@ -360,10 +359,6 @@ footer {
         .contact-form{
             width: 100%;
             margin: 0;
-        }
-        
-        p {
-            font-size: 1.2rem;
         }
 
     }
