@@ -264,6 +264,9 @@ I corrected the code and all three pages now return no html errors.
 ## Performance Testing
 
 
+updated button colours in form to improve readability
+added aria labels to improve accessibility score
+reduced image sizes to improve performance
 
 ## Unfixed Bugs
 
