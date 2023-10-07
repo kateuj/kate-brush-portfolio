@@ -21,6 +21,14 @@ hr {
     margin-inline-end: auto;
 }
 
+h3 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
 .main-header {
     font-weight: bold;
     font-size: 3rem;
@@ -192,6 +200,7 @@ hr {
     margin-top: 10px;
     color: #a37ab4;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 /*Thank you page*/
