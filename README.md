@@ -15,8 +15,9 @@ To keep in concise, I have chosen a selection of my most recent work and display
 3. [Testing](#testing)
 4. [Deployment](#deployment)
 5. [Languages](#languages)
+6. [Media Queries](#media-queries)
 6. [Software](#software)
-7. [Media](#media)
+7. [Code](#code)
 8. [Credits](#credits)
 
 # Planning & Development #
@@ -122,6 +123,7 @@ I went for a mix of warm and cool tones to ensure good colour readability contra
 ### Typography
 
 Running with the theme of adding personality to my site, as well as finding a typeface that didn't look too corporate alongside my handwritten logo, I went for a serif font to create a classic, nostalgic look. I will to ensure that font-size is large enough in mobile version to ensure good readability. 
+
 ![Josefin slab typeface](assets/readme-images/josefin-slab-typeface.png)
 
 # Features #
@@ -132,8 +134,12 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 * I have made the site responsive, so it can be viewed and used effectively on all screen sizes down to 320px width by 480px height.
 * I have made sure that readability contrast has been taken into consideration with all my design work and use of text within the site.
+* Favicon page tab icons have been added to each page to make the page look more professional.
+
+![Favicon screenshot](assets/readme-images/favicon-screenshot.png)
 
 ### Logo
+![Logo in navigation bar](assets/readme-images/logo-in-navbar.png)
 
 * I created my logo using Procreate.
 * The process involved handwriting it, then creating a clipping mask with it, to then colour with a gradient to give it a bit more depth.
@@ -142,25 +148,60 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 ### Navigation Bar
 
+![Desktop Navbar screenshot](assets/readme-images/desktop-navbar-screenshot.png)
+![Mobile Navbar screenshot](assets/readme-images/mobile-navbar-screenshot.png)
+
 * I made sure to create a fully responsive navbar for this site so it could be used with ease for all screen sizes especially mobile, as this is most likely how the site will be viewed mostly.
 * As screen size reduces the navbar intuitively turns into a collapsible toggler button at the top right corner of the screen
 * The logo for the site consistently stays on the top left corner of the screen and is linked to the Home page to make navigating there easier for the user.
 * I wanted to make sure from a user journey perspective that the navigation was intuitive and that they user could get to anywhere on the site within 2 or less clicks for ease and positive user experience.
 * The colours of the navigation links change as they are hovered over too, to emphasise that they are calls to action. This again aesthetically gives a positive user experience.
 
+## Home page
+
+![Home page screenshot](assets/readme-images/home-page-screenshot.jpg)
 ### Hero Portrait Animated GIF
+
+![Hero Portrait GIF screenshot](assets/readme-images/hero-portrait-screenshot.png)
+
 * I created an animated gif for the center of the landing page to add to the initial visual impact of the site to draw users in. I have kept it in a hand-drawn style to keep it fun and intriguing for a younger audience and to get my own personality across to the user to make it feel more casual and relatable.
 
-### Contact Form
-* To ensure that users can contact me for potential future projects etc. I have included a contact form on my About page. It is fully responsive, changing size to suit screen size.
-* It is also in keeping with the colour scheme of the site using CSS to maintain consistency and professionalism across the site.
-* Once the user has submitted their form, they are re-directed to a thank-you page to assure them their form has been submitted. They are then re-directed back to the site after 5 seconds for a positive user experience by anticipating their needs. 
-
 ### Footer
+
+![Footer screenshot](assets/readme-images/footer-screenshot.png)
+
 * I have included links to my social media profiles - Tiktok, Instagram, Patreon within my footer
 * They are the standard recognisable icons for each, so easily recognisable by the user.
 * The links all open in separate windows so that the user does not lose the site in their browser and have to manually navigate back, which again is all part of creating a positive, easy user experience for them.
 * I have also added a contact icon for those who know they want to contact me as soon as they land on my website. Link directs them to my About page with contact form available.
+
+## Portfolio page
+
+![Portfolio page screenshot](assets/readme-images/portfolio-page-screenshot.jpg)
+
+### Image Gallery
+
+![Gallery screenshot](assets/readme-images/gallery-screenshot.jpg)
+
+* Using the Bootstrap Grid system, I created a responsive image gallery to showcase my work on my Portfolio page.
+
+## About page
+
+![About page screenshot](assets/readme-images/about-page-screenshot.jpg)
+
+### Contact Form
+
+![Contact Form screenshot](assets/readme-images/contact-form-screenshot.png)
+
+* To ensure that users can contact me for potential future projects etc. I have included a contact form on my About page. It is fully responsive, changing size to suit screen size.
+* It is also in keeping with the colour scheme of the site using CSS to maintain consistency and professionalism across the site.
+* Once the user has submitted their form, they are re-directed to a thank-you page to assure them their form has been submitted. They are then re-directed back to the site after 5 seconds for a positive user experience by anticipating their needs. 
+
+## Thank you page
+
+![Thank you page screenshot](assets/readme-images/thank-you-page-screenshot.png)
+
+## Error 404 page
 
 ## Possible Future Features
 
@@ -209,6 +250,8 @@ Running with the theme of adding personality to my site, as well as finding a ty
 * **Footer**
   * An initial bug that I worked on, was a white space below the footer, which I checked over in Chrome Developer Tools initially but was still unsure as to the resolution. After doing some research, I found help at the following site for a simple piece of CSS code: [30 Seconds of Code](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/#:~:text=This%20is%20done%20by%20setting,it%20and%20its%20previous%20sibling)
   * I then tested all the links to make sure they worked and that the external links to social media accounts, opened new windows for the links when clicked on. This all worked effectively.
+  * The footer was not appearing vertically or horizontally centralised throughout the site, even though the styling was centered. Upon closer inspection in Chrome Developer Tools, I found there was a margin underneath the icons, as well as padding on the left. I tested a solution in the Developer Tools to cancel these out, found it to be successful and then proceeded to add it into my own CSS code.
+  ![Chrome Developer Tools footer debug](assets/readme-images/social-networks-footer-debug.png)
 
 ### Testing the Portfolio page
 
@@ -237,31 +280,35 @@ Running with the theme of adding personality to my site, as well as finding a ty
   * Successfully re-directs back to site after 5 seconds when tested.
   * Tested responsiveness of text and GIF, all of which work effectively.
 
-### Unfixed Bugs
-  * The footer does not always appear horizontally centralised (Tablet screen size).
-
 ## Validator Testing
 
 ### W3C Validator
 I ran my site pages through the W3C validator and I received multiple errors. These included:
 
 * 'Trailing slash on void elements' on all pages, where some elements in the header had unnecessary slashes at the end of their tags.
+
 ![Trailing Slash screenshot](assets/readme-images/validator-testing-1.png)
 * Remove sections, just use divs when the content did not include headers.
+
 ![Headers error screenshot](assets/readme-images/validator-testing-3.png)
 * Needed to move a paragraph end tag above the "hr" element on the Index page.
+
 ![End tag error screenshot](assets/readme-images/validator-testing-2.png)
 * Had a stray end div on the Portfolio page.
+
 ![Stray end tag screenshot](assets/readme-images/validator-testing-4.png)
 * Unclosed div elements, which were resolved with adding an end tag.
+
 ![Unclosed div element error screenshot](assets/readme-images/validator-testing-5.png)
 * Javascript placement was causing an error, as it was placed after the body tag, so needed to move to inside body tag to resolve the issue.
 
 I corrected the code and all three pages now return no html errors.
+
 ![HTML no errors screenshot](assets/readme-images/validator-testing-no-errors.png)
 
 ### CSS Jigsaw Validator
 The CSS stylesheet was passed through the Jigsaw Validator and returned no errors.
+
 ![CSS no errors screenshot](assets/readme-images/validator-testing-no-errors.png)
 
 
@@ -271,22 +318,27 @@ Using the Chrome Developer Tools Lighthouse reports, I was able to test the perf
 
 ### Desktop
 My initial desktop performance came out as below:
+
   ![Initial site performance](assets/readme-images/initial-site-performance.png)
 
 To improve my score, I did the following:
 * Updated button text colour in form to a darker colour to improve readability contrast and site accessibility.
+
 ![Button colour contrast error](assets/readme-images/button-contrast-error.png)
 * Added aria labels to the links across the site to improve accessibility score.
 * Reduced image sizes to improve performance.
+
 ![Image size error](assets/readme-images/image-size-error.png)
 * Added meta description and author tags to all pages to improve SEO score.
 
 My score after all these changes was improved:
+
 ![CSS no errors screenshot](assets/readme-images/site-performance-after.png)
 
 ### Mobile
 
 The same errors for desktop came up in mobile as well, but after the same tweaks, the performance came out as:
+
 ![Mobile site performance after](assets/readme-images/mobile-site-performance-after.png)
 
 * Performance on mobile could still be improved by reducing image sizes.
@@ -323,6 +375,7 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 
 # Code
 * **Navigation Bar** - I tailored this [Bootstrap code](https://getbootstrap.com/docs/5.0/components/navbar/) snippet to create my Navigation bar.
+
 ![Bootstrap Navigation Bar code snippet](assets/readme-images/bootstrap-navbar-code-snippet.png)
 
 * **Contact form** - this was based on the code used in the 'Love Running' exercise of Code Institute.
@@ -330,7 +383,11 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 * **Footer** - code is based on the code used in the 'Love Running' exercise of Code Institute.
 
 * **Thank-you page** - I used this code snippet to get the Thank You page to re-direct back to the site after 5 seconds. This was from a [Stack Overflow thread.](https://stackoverflow.com/questions/3292038/redirect-website-after-specified-amount-of-time)
+
 ![Re-direct for the thank you page code snippet](assets/readme-images/redirect-code-snippet.png)
+
+* **Favicon** - I used a [Favicon generator](https://favicon.io/) to create the appropriate files for me to upload to my site, as well as this code snippet to install it site-wide.
+![Favicon installation code snippet](assets/readme-images/favicon-code-snippet.png)
 
 # Credits
 
@@ -342,6 +399,7 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 
 * [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
 * All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'.
+* [](https://favicon.io/)
 
 
 ### Thanks
