@@ -47,7 +47,6 @@ h5 {
 
 }
 
-
 .navbar {
     background: url('../images/hero-background-1.webp') no-repeat top right fixed;
     height: 10vh;
@@ -79,7 +78,6 @@ h5 {
 .nav-link:hover {
     color: #DAE8B4;
 }
-
 
 /* Hero container Index Page */
 #hero-animation {
@@ -153,10 +151,10 @@ h5 {
     display: flex;
     object-fit: cover;
     width: 50vh;
-    
+
 }
 
-.about-first-row{
+.about-first-row {
     margin: auto;
     padding-top: 13vh;
     display: flex;
@@ -164,11 +162,11 @@ h5 {
 
 }
 
-.coffee-gif-div{
+.coffee-gif-div {
     margin: auto;
 }
 
-.contact-form-div{
+.contact-form-div {
     margin: auto;
 }
 
@@ -179,7 +177,6 @@ h5 {
     border-radius: 10px;
     margin: 50px;
 }
-
 
 .btn-secondary {
     background-color: #F1B1C1;
@@ -204,7 +201,6 @@ h5 {
 }
 
 /*Thank you page*/
-
 .thank-you-coffee {
     width: 40vh;
     margin: auto;
@@ -236,20 +232,16 @@ footer {
 }
 
 /*Media Queries*/
-
 @media screen and (max-width: 1050px) {
-
-
     .about-images {
         width: 80%;
         margin: auto;
     }
 
-    .about{
-        margin:auto;
-        width:80%;
+    .about {
+        margin: auto;
+        width: 80%;
     }
-    
 }
 
 @media screen and (max-width: 991px) {
@@ -267,13 +259,13 @@ footer {
         display: none;
     }
 
-    .about{
-        margin:auto;
-        width:90%;
-    
+    .about {
+        margin: auto;
+        width: 90%;
+
     }
 
-    .about-images{
+    .about-images {
         width: 90%;
     }
 
@@ -281,90 +273,86 @@ footer {
         padding: 30px;
         margin: 10px;
 
+    }
 }
 
-
-}
-
-    @media screen and (max-width: 767px) {
-        .nav-link {
-            background-color: #171617c5;
-            text-align: right;
-            padding-right: 10px;
-        }
-
-        .hero-portrait {
-            padding-top: 60px;
-        }
-
-        .about{
-            padding-top: 10px;
-            margin:auto;
-            width:80%;
-        }
-
-        .about-first-row{
-            padding-top: 0;
-        }
-
-        .about-images{
-            padding-top: 20px;
-        }
-
-        .navbar {
-            height: 75px;
-            padding-top: 0;
-        }
-
-        .header-spacing {
-            margin-top: 90px;
-        }
-
-        #navbar-logo {
-            padding-bottom: 20px;
-            height: 70px;
-        }
-
-        .contact-form {
-            padding: 30px;
-            margin: 20px;
-
-}
+@media screen and (max-width: 767px) {
+    .nav-link {
+        background-color: #171617c5;
+        text-align: right;
+        padding-right: 10px;
     }
 
-    @media screen and (max-width: 360px) {
+    .hero-portrait {
+        padding-top: 60px;
+    }
 
-        .introduction {
-            padding-top: 90px;
-            padding-left: 2em;
-            padding-right: 2em;
-        }
+    .about {
+        padding-top: 10px;
+        margin: auto;
+        width: 80%;
+    }
 
-        .center-portrait {
-            width: 40vh;
-        }
+    .about-first-row {
+        padding-top: 0;
+    }
 
-        .header-spacing {
-            margin-top: 80px;
-        }
+    .about-images {
+        padding-top: 20px;
+    }
 
-        .about{
-            padding: 10px;
-            width: 100%;
-        }
+    .navbar {
+        height: 75px;
+        padding-top: 0;
+    }
 
-        .about-images{
-            padding: 10px;
-            width: 100%;
-        }
+    .header-spacing {
+        margin-top: 90px;
+    }
 
-        .contact-form-div{
-            padding: 10px;
-        }
+    #navbar-logo {
+        padding-bottom: 20px;
+        height: 70px;
+    }
 
-        .contact-form{
-            width: 100%;
-            margin: 0;
-        }
+    .contact-form {
+        padding: 30px;
+        margin: 20px;
 
     }
+}
+
+@media screen and (max-width: 360px) {
+    .introduction {
+        padding-top: 90px;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .center-portrait {
+        width: 40vh;
+    }
+
+    .header-spacing {
+        margin-top: 80px;
+    }
+
+    .about {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .about-images {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .contact-form-div {
+        padding: 10px;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 0;
+    }
+}
