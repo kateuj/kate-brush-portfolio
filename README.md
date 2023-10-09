@@ -238,27 +238,27 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 ## Validator Testing
 
-I ran my site pages through the W3C validator and I received a few errors.
+### W3C Validator
+I ran my site pages through the W3C validator and I received multiple errors. These included:
 
-'Trailing slash on void elements' on all pages
-Needed to move "</p>" above "hr" element to resolve
-stray end div
-
-javascript was placed after body so needed to move to inside body
-
-remove section elements in portfolio page
-unclosed divs in portfolio page
-
-stray end divs
+* 'Trailing slash on void elements' on all pages, where some elements in the header had unnecessary slashes at the end of their tags.
+![Trailing Slash screenshot](assets/readme-images/validator-testing-1.png)
+* Remove sections, just use divs when the content did not include headers.
+![Headers error screenshot](assets/readme-images/validator-testing-3.png)
+* Needed to move a paragraph end tag above the "hr" element on the Index page.
+![End tag error screenshot](assets/readme-images/validator-testing-2.png)
+* Had a stray end div on the Portfolio page.
+![Stray end tag screenshot](assets/readme-images/validator-testing-4.png)
+* Unclosed div elements, which were resolved with adding an end tag.
+![Unclosed div element error screenshot](assets/readme-images/validator-testing-5.png)
+* Javascript placement was causing an error, as it was placed after the body tag, so needed to move to inside body tag to resolve the issue.
 
 I corrected the code and all three pages now return no html errors.
+![HTML no errors screenshot](assets/readme-images/validator-testing-no-errors.png)
 
-
-
-- The CSS stylesheet was passed through the Jigsaw Validator and returned no errors.
-
-
-
+### CSS Jigsaw Validator
+The CSS stylesheet was passed through the Jigsaw Validator and returned no errors.
+![CSS no errors screenshot](assets/readme-images/validator-testing-no-errors.png)
 
 
 ## Performance Testing
@@ -267,6 +267,8 @@ I corrected the code and all three pages now return no html errors.
 updated button colours in form to improve readability
 added aria labels to improve accessibility score
 reduced image sizes to improve performance
+
+added meta tags to all pages to improve SEO score
 
 ## Unfixed Bugs
 
