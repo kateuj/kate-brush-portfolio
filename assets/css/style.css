@@ -49,7 +49,7 @@ h5 {
 
 
 .navbar {
-    background: url('../images/hero-background-1.webp') no-repeat top right;
+    background: url('../images/hero-background-1.webp') no-repeat top right fixed;
     height: 10vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -238,6 +238,7 @@ footer {
 /*Media Queries*/
 
 @media screen and (max-width: 1050px) {
+
 
     .about-images {
         width: 80%;
