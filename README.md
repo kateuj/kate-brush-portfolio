@@ -237,6 +237,9 @@ Running with the theme of adding personality to my site, as well as finding a ty
   * Successfully re-directs back to site after 5 seconds when tested.
   * Tested responsiveness of text and GIF, all of which work effectively.
 
+### Unfixed Bugs
+  * The footer does not always appear horizontally centralised (Tablet screen size).
+
 ## Validator Testing
 
 ### W3C Validator
