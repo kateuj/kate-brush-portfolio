@@ -200,8 +200,7 @@ Running with the theme of adding personality to my site, as well as finding a ty
 ## Thank you page
 
 ![Thank you page screenshot](assets/readme-images/thank-you-page-screenshot.png)
-
-## Error 404 page
+* Users are directed to this page when they submit a contact form. It re-directs back to site after 5 seconds. 
 
 ## Possible Future Features
 
