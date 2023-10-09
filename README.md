@@ -1,7 +1,7 @@
 # Kate Brush Illustration Portfolio
 
 This is my Milestone 1 project, which has been designed to showcase my own illustration work as an online portfolio.
-To keep in concise, I have chosen a selection of my most recent work and displayed in a clear manner for prospective clients and collaborators to get a feel for my artistic style and contact me if desired. Due to alot of people using mobile devices more, especially on the go, I have used the 'mobile first' design technique and made sure the site is fully responsive.
+To keep in concise, I have chosen a selection of my most recent work and displayed in a clear manner for prospective clients and collaborators to get a feel for my artistic style and contact me if desired. Due to a lot of people using mobile devices more, especially on the go, I have used the 'mobile first' design technique and made sure the site is fully responsive.
 
 ![Screen mockups of Kate Brush website](assets/readme-images/mock-up-screen-size.webp)
 
@@ -28,11 +28,11 @@ I have wanted to create an Illustration portfolio site with the hope of gaining 
 
 ### Target Audience
 
-Predominently, my target audience will be prospective clients checking my style for suitability of their project, as well as potential collaborators and general visitors with an interest in illustration, that can in theory increase my exposure by sharing my site in their social media so increase my reach.
+Predominantly, my target audience will be prospective clients checking my style for suitability of their project, as well as potential collaborators and general visitors with an interest in illustration, that can in theory increase my exposure by sharing my site in their social media so increase my reach.
 
-I collated some research on 'AdTargeting', where I can get an overview of what demographic search for certain key words. I found that the keyword 'illustration' is predominently searched by a female demographic (61%), within the 35-44 age range. Digging a bit deeper, I found that 'digital illustration' is again searched most by females (56%) within the 25-34 age range.
+I collated some research on 'AdTargeting', where I can get an overview of what demographic search for certain key words. I found that the keyword 'illustration' is predominantly searched by a female demographic (61%), within the 35-44 age range. Digging a bit deeper, I found that 'digital illustration' is again searched most by females (56%) within the 25-34 age range.
 
-![Overview of Adtargeting interest for the word 'Illustration'](assets/readme-images/ad-targeting-research-screenshot.png)
+![Overview of AdTargeting interest for the word 'Illustration'](assets/readme-images/ad-targeting-research-screenshot.png)
 
 #### Digital Illustration Keyword Search
 * 56% Female demographic
@@ -78,7 +78,7 @@ This emphasised to me that my site needs to be fully responsive, as younger targ
 
 ### Research
 
-I conducted some research, looking at other aristic portfolios out there, examining their content, navigation and UI to ensure I could create a competitive online portfolio.
+I conducted some research, looking at other artistic portfolios out there, examining their content, navigation and UI to ensure I could create a competitive online portfolio.
 
 Sites included:
 * [Sara Tepes Portfolio](https://www.sarucatepes.com/)
@@ -159,7 +159,7 @@ Running with the theme of adding personality to my site, as well as finding a ty
 ### Footer
 * I have included links to my social media profiles - Tiktok, Instagram, Patreon within my footer
 * They are the standard recognisable icons for each, so easily recognisable by the user.
-* The links all open in seperate windows so that the user does not lose the site in their browser and have to manually navigate back, which again is all part of creating a positive, easy user experiene for them.
+* The links all open in separate windows so that the user does not lose the site in their browser and have to manually navigate back, which again is all part of creating a positive, easy user experience for them.
 * I have also added a contact icon for those who know they want to contact me as soon as they land on my website. Link directs them to my About page with contact form available.
 
 ## Possible Future Features
@@ -168,7 +168,7 @@ Running with the theme of adding personality to my site, as well as finding a ty
 * I would to add javascript to the portfolio page to allow users to click on the images and get an embedded pop up of the image full screen, with a title and blurb included with each. This would give a bit more context to the pieces and allow users to view them in more depth if required.
 
 ### Announcement Bar
-* An annoucement bar that sat above the navigation bar would be desirable to bring to the attention of any user if there have been any updates to the site, for example, new artwork available to view
+* An announcement bar that sat above the navigation bar would be desirable to bring to the attention of any user if there have been any updates to the site, for example, new artwork available to view
 
 ### A Print Shop
 
@@ -185,7 +185,7 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 ## Testing during Development
 
-* Throughout the process of making this website, I tested my code and CSS alot using the preview window extension within VS Code, as well as within a chrome browser. With chrome browser I could Chrome Developer Tools to test responsiveness as well as troubleshoot any spacing issues or bugs.
+* Throughout the process of making this website, I tested my code and CSS a lot using the preview window extension within VS Code, as well as within a chrome browser. With chrome browser I could Chrome Developer Tools to test responsiveness as well as troubleshoot any spacing issues or bugs.
 * I would also consistently commit and push work to Github to then view live site and check responsiveness on my mobile and tablet devices, as well as passing onto friends and family to test on their devices.
 * I have also tested my site in the main browsers available, which include:
 
@@ -199,7 +199,7 @@ Running with the theme of adding personality to my site, as well as finding a ty
   * First thing I tested was the nav bar to check all links worked correctly. I also checked the external link for 'Support' opened a new window, so as not to navigate the user away from my site completely.
   * This nav bar is based on a responsive Bootstrap snippet available, which I edited to suit colour scheme and typeface, as well as background image.
   * Getting the nav bar to be a suitable thickness for different screen sizes took some tweaking in CSS with media queries, cross-checking my edits in the VS code live preview to get it to look effective.
-  * Initally the background of the nav bar was not showing the same part of the image as the hero background behind as the screen size got smaller, but after trouble shooting, I found a simple fix was to put 'fixed' in the css for the nav bar background to have it move and reduce in the same way as the hero background.
+  * Initially the background of the nav bar was not showing the same part of the image as the hero background behind as the screen size got smaller, but after trouble shooting, I found a simple fix was to put 'fixed' in the css for the nav bar background to have it move and reduce in the same way as the hero background.
 
 * **Body content**
   * I have used the Bootstrap grid system in my site to structure my pages, as I found it to be reliable to use in the Code Institute exercises for responsiveness. So I tested this section with Chrome Developer Tools, editing with CSS and media queries to make sure responsiveness was suitable on all screen sizes.
@@ -213,21 +213,21 @@ Running with the theme of adding personality to my site, as well as finding a ty
 ### Testing the Portfolio page
 
 * **Header**
-  * Testing showed that the headers throughout the site all constitently followed the styling CSS rule I had created for them.
+  * Testing showed that the headers throughout the site all consistently followed the styling CSS rule I had created for them.
   
 * **Image Grid**
-  * When testing responsiveness of this section, I found that the right margin was not equal to the left,causing the image grid to not sit centrally on the page. After some trial and error, I put the image grid into a seperate div container from the header, which resolved the issue.
+  * When testing responsiveness of this section, I found that the right margin was not equal to the left,causing the image grid to not sit centrally on the page. After some trial and error, I put the image grid into a separate div container from the header, which resolved the issue.
 
   
 ### Testing the About page
 
 * **Text section**
-  * Through alot of trial and error, I testing this page the most rigorously for responsiveness, as I found it to be the most complex content and layout-wise. I tested the paragraph text on smaller screens and found it to be too small to comfortably read, so I increased the font size with media queries for the smaller screens.
-  * I also found my line break elemeent was not displaying central to the text when orginally tested and I could not centeralise it with CSS initally. However after researching it, I managed to solve this bug after learning about margin inline CSS rules at this site [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline).
+  * Through a lot of trial and error, I testing this page the most rigorously for responsiveness, as I found it to be the most complex content and layout-wise. I tested the paragraph text on smaller screens and found it to be too small to comfortably read, so I increased the font size with media queries for the smaller screens.
+  * I also found my line break element was not displaying central to the text when originally tested and I could not centralise it with CSS initially. However after researching it, I managed to solve this bug after learning about margin inline CSS rules at this site [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline).
   * I also had an issue where the line break was appearing at a low opacity, which must have been a carried over style from the Bootstrap code in my site. To resolve this bug I declared 100% opacity on the hr elements.
 
 * **Image and GIF**
-  * When tested on different screen sizes I had alot of issues with the image and the GIF on this page not being responsive and causing there to be a large white margin on the right-hand side of the site and a horizontal scroll. I found the fix to this bug in the end to be setting the width of each to '50vh' on the desktop and tablet screens to keep it responsive and make sure it never caused an overhang.
+  * When tested on different screen sizes I had a lot of issues with the image and the GIF on this page not being responsive and causing there to be a large white margin on the right-hand side of the site and a horizontal scroll. I found the fix to this bug in the end to be setting the width of each to '50vh' on the desktop and tablet screens to keep it responsive and make sure it never caused an overhang.
 
 * **Contact Form**
   * I based this form on the code we learnt in the 'Love Running' exercise I completed. Upon testing my styling, I found the margins to be too wide on smaller screens, which I sorted with a media query to reduce them in size.
@@ -274,7 +274,7 @@ My initial desktop performance came out as below:
   ![Initial site performance](assets/readme-images/initial-site-performance.png)
 
 To improve my score, I did the following:
-* Updated button text colour in form to a darker colour to improve readability contrast and site accessbility.
+* Updated button text colour in form to a darker colour to improve readability contrast and site accessibility.
 ![Button colour contrast error](assets/readme-images/button-contrast-error.png)
 * Added aria labels to the links across the site to improve accessibility score.
 * Reduced image sizes to improve performance.
@@ -307,11 +307,11 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 # Languages
 
 * I used HTML and CSS to create this site.
-* Boostrap v5.3.2 was also used and built upon for features such as the responsive navigation bar and page layout.
+* Bootstrap v5.3.2 was also used and built upon for features such as the responsive navigation bar and page layout.
 
 # Media Queries
 
-* Media queries were used to debug and override some display issues that were not rectified with Bootsrap's responsive layouts.
+* Media queries were used to debug and override some display issues that were not rectified with Bootstrap's responsive layouts.
 
 # Software
 
@@ -329,7 +329,7 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 
 * **Footer** - code is based on the code used in the 'Love Running' exercise of Code Institute.
 
-* **Thank-you page** - I used this code snippet to get the Thank You page to re-direct back to the site after 5 seconds. This was from a [Stackoverflow thread.](https://stackoverflow.com/questions/3292038/redirect-website-after-specified-amount-of-time)
+* **Thank-you page** - I used this code snippet to get the Thank You page to re-direct back to the site after 5 seconds. This was from a [Stack Overflow thread.](https://stackoverflow.com/questions/3292038/redirect-website-after-specified-amount-of-time)
 ![Re-direct for the thank you page code snippet](assets/readme-images/redirect-code-snippet.png)
 
 # Credits
