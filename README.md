@@ -185,7 +185,7 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 ## Testing during Development
 
-* Throughout the process of making this website, I tested my code and CSS alot using the preview window extension within VS Code, as well as within a chrome browser. With chrome browser I could Google Dev-tools to test responsiveness as well as troubleshoot any spacing issues or bugs.
+* Throughout the process of making this website, I tested my code and CSS alot using the preview window extension within VS Code, as well as within a chrome browser. With chrome browser I could Chrome Developer Tools to test responsiveness as well as troubleshoot any spacing issues or bugs.
 * I would also consistently commit and push work to Github to then view live site and check responsiveness on my mobile and tablet devices, as well as passing onto friends and family to test on their devices.
 * I have also tested my site in the main browsers available, which include:
 
@@ -199,14 +199,15 @@ Running with the theme of adding personality to my site, as well as finding a ty
   * First thing I tested was the nav bar to check all links worked correctly. I also checked the external link for 'Support' opened a new window, so as not to navigate the user away from my site completely.
   * This nav bar is based on a responsive Bootstrap snippet available, which I edited to suit colour scheme and typeface, as well as background image.
   * Getting the nav bar to be a suitable thickness for different screen sizes took some tweaking in CSS with media queries, cross-checking my edits in the VS code live preview to get it to look effective.
+  * Initally the background of the nav bar was not showing the same part of the image as the hero background behind as the screen size got smaller, but after trouble shooting, I found a simple fix was to put 'fixed' in the css for the nav bar background to have it move and reduce in the same way as the hero background.
 
 * **Body content**
-  * I have used the Bootstrap grid system in my site to structure my pages, as I found it to be reliable to use in the Code Institute exercises for responsiveness. So I tested this section with Google Dev-tools, editing with CSS and media queries to make sure responsiveness was suitable on all screen sizes.
+  * I have used the Bootstrap grid system in my site to structure my pages, as I found it to be reliable to use in the Code Institute exercises for responsiveness. So I tested this section with Chrome Developer Tools, editing with CSS and media queries to make sure responsiveness was suitable on all screen sizes.
   * The portrait GIF in the center was initially appearing under the nav bar on smaller screens when tested, so I resolved this by creating media queries for the smaller screen sizes to change the top margin above it where appropriate.
   * I felt the 3 images were impactful on the larger screens but from tablet screen-size downward, the two image on one line was enough, so I change my strategy in the end to make the third image disappear on smaller screens using a media query.
 
 * **Footer**
-  * An initial bug that I worked on, was a white space below the footer, which I checked over in Google Dev-tools initially but was still unsure as to the resolution. After doing some research, I found help at the following site for a simple piece of CSS code: [30 Seconds of Code](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/#:~:text=This%20is%20done%20by%20setting,it%20and%20its%20previous%20sibling)
+  * An initial bug that I worked on, was a white space below the footer, which I checked over in Chrome Developer Tools initially but was still unsure as to the resolution. After doing some research, I found help at the following site for a simple piece of CSS code: [30 Seconds of Code](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/#:~:text=This%20is%20done%20by%20setting,it%20and%20its%20previous%20sibling)
   * I then tested all the links to make sure they worked and that the external links to social media accounts, opened new windows for the links when clicked on. This all worked effectively.
 
 ### Testing the Portfolio page
@@ -263,16 +264,29 @@ The CSS stylesheet was passed through the Jigsaw Validator and returned no error
 
 ## Performance Testing
 
+Using the Chrome Developer Tools Lighthouse reports, I was able to test the performance of my site pages and improve it as a result.
 
-updated button colours in form to improve readability
-added aria labels to improve accessibility score
-reduced image sizes to improve performance
+### Desktop
+My initial desktop performance came out as below:
+  ![Initial site performance](assets/readme-images/initial-site-performance.png)
 
-added meta tags to all pages to improve SEO score
+To improve my score, I did the following:
+* Updated button text colour in form to a darker colour to improve readability contrast and site accessbility.
+![Button colour contrast error](assets/readme-images/button-contrast-error.png)
+* Added aria labels to the links across the site to improve accessibility score.
+* Reduced image sizes to improve performance.
+![Image size error](assets/readme-images/image-size-error.png)
+* Added meta description and author tags to all pages to improve SEO score.
 
-## Unfixed Bugs
+My score after all these changes was improved:
+![CSS no errors screenshot](assets/readme-images/site-performance-after.png)
 
+### Mobile
 
+The same errors for desktop came up in mobile as well, but after the same tweaks, the performance came out as:
+![Mobile site performance after](assets/readme-images/mobile-site-performance-after.png)
+
+* Performance on mobile could still be improved by reducing image sizes.
 
 # Deployment
 
