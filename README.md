@@ -319,18 +319,32 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 * Adobe Photoshop was used to create visual mockups for this document, as well as reformatting all my images as .webp files to reduce file size and inturn improve the performance of my site.
 
 # Code
-* https://getbootstrap.com/docs/5.0/components/navbar/
+* **Navigation Bar** - I tailored this [Bootstrap code](https://getbootstrap.com/docs/5.0/components/navbar/) snippet to create my Navigation bar.
+![Bootstrap Navigation Bar code snippet](assets/readme-images/bootstrap-navbar-code-snippet.png)
+
+* **Contact form** - this was based on the code used in the 'Love Running' exercise of Code Institute.
+
+* **Footer** - code is based on the code used in the 'Love Running' exercise of Code Institute.
+
+* **Thank-you page** - I used this code snippet to get the Thank You page to re-direct back to the site after 5 seconds. This was from a [Stackoverflow thread.](https://stackoverflow.com/questions/3292038/redirect-website-after-specified-amount-of-time)
+![Re-direct for the thank you page code snippet](assets/readme-images/redirect-code-snippet.png)
 
 # Credits
 
+* Code Institute Bootstrap lessons helped me with working out how to use the Bootstrap grid layout on my pages.
+
+* Google fonts for ['Joesfin Slab' typography](https://fonts.google.com/specimen/Josefin+Slab)
+
 ## Content
 
-* * [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
+* [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
 * All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'.
 
 
 ### Thanks
 
-* 
-
+* [Harsivo Edu](https://www.youtube.com/watch?v=lYiE5lBS13E&ab_channel=HarsivoEdu) for teaching me how to set up VS Code.
+* Martina Terlevic my CI mentor, for her advice and encouragement.
+* [Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/README.md#italic-bold-and-code) for showing how to form a README file.
+* Rob McLaughlin for his positivity and encouragement.
 * The big and little human beings of the Ulloa-James household who have been very patient with me, allowing me the time day or night to focus on this project.
