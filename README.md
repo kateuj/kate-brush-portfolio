@@ -344,14 +344,33 @@ The same errors for desktop came up in mobile as well, but after the same tweaks
 
 # Deployment
 
-* I used GitHub pages to deploy my site. This required me to go to my project repository and then:
-  * Click on the 'Settings' tab.
-  * Select 'Pages' from the menu that appears on the left.
-  * Select 'Deploy from a branch'.
-  * Select 'Main' in the drop-down menu called 'Select Branch'.
-  * Then alongside 'Main', there is a folder dropdown where you select '/Root'.
-  * Click 'Save' button.
-  * Refresh the page and a link to the live project will appear at the top of the page.
+## GitHub pages
+I used GitHub pages to deploy my site. This required me to go to my project repository and then:
+1. Click on the 'Settings' tab.
+2. Select 'Pages' from the menu that appears on the left.
+3. Select 'Deploy from a branch'.
+4. Select 'Main' in the drop-down menu called 'Select Branch'.
+5. Then alongside 'Main', there is a folder dropdown where you select '/Root'.
+6. Click 'Save' button.
+7. Refresh the page and a link to the live project will appear at the top of the page.
+
+## Forking a GitHub repository
+Forking allows users to make a copy of an original repository in GitHub and view and make changes to it without changing the original repository.
+To create a fork:
+1. Once logged into GitHub, follow the link to your chosen GitHub repository, or use the search bar to find it on the GitHub home page.
+2. Once in the repository window, click the 'Fork' drop down arrow button in the top right-hand corner.
+3. Select 'Create new fork'.
+4. Check the details in the window before clicking the green 'Create Fork' button.
+5. You will now be able to find the copy of the repository in your own GitHub account.
+
+## Making a Local Clone
+1. Once logged into GitHub, follow the link to your chosen GitHub repository, or use the search bar to find it on the GitHub home page.
+2. Once in the repository window, click the green 'Code' button.
+3. To clone the repository using HTTPS, copy the link provided below the HTTPS header.
+4. Open a terminal in your code editor.
+5. Change the location in the current working directory to where you want the cloned directory to be created.
+6. Type "git clone" into the terminal, and then paste the URL you copied and click enter.
+7. This should have created a local clone of the repository.
 
 Here is the live link to my website - <https://kateuj.github.io/kate-brush-portfolio/index.html>
 
