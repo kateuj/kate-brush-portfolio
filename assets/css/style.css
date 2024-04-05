@@ -162,11 +162,16 @@ h5 {
     margin: auto;
     padding-top: 13vh;
     display: flex;
-
-
 }
 
-.coffee-gif-div {
+.video-div{
+    margin: auto;
+    display: flex;
+}
+
+.video {
+    width: 750px;
+    height: 420px;
     margin: auto;
 }
 
