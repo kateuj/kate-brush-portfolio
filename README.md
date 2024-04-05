@@ -424,7 +424,7 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 ## Content
 
 * [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik.](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
-* All illustrations, animated GIFs, images and videos are my own work under my pseudonym 'Kate Brush'.
+* All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'. I filmed, animated, created and produced the video, with music from the band 'The Andales' and actor credits stated in the video.
 
 
 ### Thanks
