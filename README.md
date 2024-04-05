@@ -240,6 +240,9 @@ Running with the theme of adding personality to my site, as well as finding a ty
   * This nav bar is based on a responsive Bootstrap snippet available, which I edited to suit colour scheme and typeface, as well as background image.
   * Getting the nav bar to be a suitable thickness for different screen sizes took some tweaking in CSS with media queries, cross-checking my edits in the VS code live preview to get it to look effective.
   * Initially the background of the nav bar was not showing the same part of the image as the hero background behind as the screen size got smaller, but after trouble shooting, I found a simple fix was to put 'fixed' in the CSS for the nav bar background to have it move and reduce in the same way as the hero background.
+  * It was brought to my attention from a user looking at the website, that the external visited link 'Support' in my navigation bar were turning black, and in turn making it not visible. To fix this I added the piece of code below to change the colour of visited links to the same as the default font colour, which fixed the issue.
+
+![Visited link colour debug](assets/readme-images/nav-link-visited-bug-fix.png)
 
 * **Body content**
   * I have used the Bootstrap grid system in my site to structure my pages, as I found it to be reliable to use in the Code Institute exercises for responsiveness. So, I tested this section with Chrome Developer Tools, editing with CSS and media queries to make sure responsiveness was suitable on all screen sizes.
