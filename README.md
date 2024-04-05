@@ -187,7 +187,7 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 ## About page
 
-![About page screenshot](assets/readme-images/about-page-screenshot.jpg)
+![About page screenshot](assets/readme-images/about-page-screenshot.png)
 
 ### Contact Form
 
@@ -195,7 +195,13 @@ Running with the theme of adding personality to my site, as well as finding a ty
 
 * To ensure that users can contact me for potential future projects etc. I have included a contact form on my About page. It is fully responsive, changing size to suit screen size.
 * It is also in keeping with the colour scheme of the site using CSS to maintain consistency and professionalism across the site.
-* Once the user has submitted their form, they are re-directed to a thank-you page to assure them their form has been submitted. They are then, re-directed back to the site after 5 seconds for a positive user experience by anticipating their needs. 
+* Once the user has submitted their form, they are re-directed to a thank-you page to assure them their form has been submitted. They are then, re-directed back to the site after 5 seconds for a positive user experience by anticipating their needs.
+
+### Embedded Video
+
+![Embedded video screenshot](assets/readme-images/embedded-video-screenshot.png)
+
+* To add some more engaging content to my site for the user on my About page, I embedded a video of a short film I made, so they get an informal, fun insight into my hobbies and personality.
 
 ## Thank you page
 
@@ -418,7 +424,7 @@ Here is the live link to my website - <https://kateuj.github.io/kate-brush-portf
 ## Content
 
 * [Image for visual mock up at top of README document by CosmoStudio</a> on Freepik.](https://www.freepik.com/psd/desktop-tablet-phone-mockup)
-* All illustrations, animated GIFs and images are my own work under my pseudonym 'Kate Brush'.
+* All illustrations, animated GIFs, images and videos are my own work under my pseudonym 'Kate Brush'.
 
 
 ### Thanks
